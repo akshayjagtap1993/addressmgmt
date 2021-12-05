@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/addressmgmt
+    username: root
+    password: root
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+server:
+  port: 9012
+
